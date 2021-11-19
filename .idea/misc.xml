@@ -13,6 +13,7 @@
         <entry key="app/src/main/res/layout/fragment_allprofile.xml" value="0.13451086956521738" />
         <entry key="app/src/main/res/layout/fragment_editprofile.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/fragment_fragmentcreate.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/profilelist_layout.xml" value="0.1" />
       </map>
     </option>
   </component>

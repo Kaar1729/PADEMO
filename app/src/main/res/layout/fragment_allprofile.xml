@@ -7,21 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".Fragment1">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclarview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <ImageButton
         android:id="@+id/create"
         android:layout_width="112dp"
         android:layout_height="104dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="35dp"
+        android:layout_below="@+id/recyclarview"
         android:onClick="openDialog"
         android:src="@android:drawable/ic_menu_add"
         tools:ignore="SpeakableTextPresentCheck" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="191dp"
-        android:layout_height="30dp"
-        android:text="TextView"
-        android:textSize="25dp"
-        android:layout_marginTop="500dp"/>
 </FrameLayout>
